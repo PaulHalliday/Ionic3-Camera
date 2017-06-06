@@ -37,9 +37,9 @@ export class HomePage {
       saveToPhotoAlbum: true
     }
 
-    this.capturePhoto(options);
+    this.capturePhoto(options)
   }
-
+  
   async capturePhoto(options: CameraOptions) {
     try {
       //Result is a base64 image but can be changed to use a filepath.
